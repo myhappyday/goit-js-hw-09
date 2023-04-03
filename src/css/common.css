@@ -26,15 +26,20 @@ img {
 
 .field {
   display: flex;
+  min-width: 80px;
   flex-direction: column;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
-  width: 70px;
 }
 
 .value {
+  padding: 0 10px;
+  margin-bottom: 10px;
   font-size: 50px;
   font-weight: 400;
+  color: #fafafa;
+  background: dimgrey;
+  border-radius: 8px;
 }
